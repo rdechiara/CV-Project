@@ -22,15 +22,15 @@ class ProfessionalExperience extends React.Component
                 <label htmlFor="datore">Datore di lavoro</label>
                 <input type="text" placeholder="" name="datore" required></input>
                 <label htmlFor="città">Città</label>
-                <input type="text" placeholder="Luogo di lavoro" name="città" required></input>
+                <input type="text" placeholder="Luogo di lavoro" name="city" required></input>
                 <label htmlFor="paese">Paese</label>
-                <input type="text" placeholder="Nazione di lavoro" name="paese" required></input>
+                <input type="text" placeholder="Nazione di lavoro" name="nazione" required></input>
                 <label htmlFor="inizio">Data di inizio</label>
-                <input type="date" name="inizio" required></input>
+                <input type="date" name="start" required></input>
                 <label htmlFor="fine">Data di fine</label>
-                <input type="date" name="fine" required></input>
+                <input type="date" name="end" required></input>
                 <label htmlFor="mansioni">Principali attività e responsabilità</label>
-                <textarea placeholder="Descrivi i tuoi compiti e responsabilità" rows="5"></textarea>
+                <textarea placeholder="Descrivi i tuoi compiti e responsabilità" name="mansioni" rows="5"></textarea>
                 
                 {/*<button onClick={this.props.handleClick}>{`Avanti >`}</button>*/}
              

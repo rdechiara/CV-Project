@@ -21,8 +21,8 @@ export class PersonalDataForm extends React.Component
         return (
             <div>
                 
-                <label htmlFor="name">Nome*</label>
-                <input type="text" name="name" required></input>
+                <label htmlFor="firstname">Nome*</label>
+                <input type="text" name="firstname" required></input>
                 
                 <label htmlFor="surname">Cognome*</label>
                 <input type="text" name="surname" required></input>

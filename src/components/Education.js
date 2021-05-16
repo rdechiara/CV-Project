@@ -27,8 +27,9 @@ class Education extends React.Component
             <input type="date" name="inizio" required></input>
             <label htmlFor="fine">Data di fine</label>
             <input type="date" name="fine" required></input>
-            <label htmlFor="mansioni">Principali competenze acquisite</label>
-            <textarea placeholder="Descrivi le competenze acquisite durante il percorso di studi" rows="5"></textarea>
+            <label htmlFor="competenze">Principali competenze acquisite</label>
+            <textarea placeholder="Descrivi le competenze acquisite durante il percorso di studi" name="competenze"
+             rows="5"></textarea>
             <button onClick={this.props.handleClick}>{`Avanti >`}</button>
         </div>
         );

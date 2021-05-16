@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
+import ReactDOM from 'react-dom';
 import {PersonalDataForm} from './components/PersonaDataForm';
 import ProfessionalExperience from './components/ProfessionaExperience';
-
 import Education from './components/Education';
+import {CVPreview} from './components/CVPreview';
 
 class App extends React.Component
 {
@@ -12,6 +13,7 @@ class App extends React.Component
   handleClick = (e) =>
   {  
       e.preventDefault();
+      localStorage.clear();
       const inputs = [...document.querySelectorAll(`input`)];
       inputs.forEach((input) =>
       {
@@ -26,7 +28,7 @@ class App extends React.Component
         localStorage.setItem(area.name, area.value);
       });
 
-
+    ReactDOM.render(<CVPreview/>, document.getElementById(`root`));
   }
   render()
   {
