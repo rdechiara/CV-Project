@@ -1,3 +1,7 @@
+div:first-child
+{
+    border-top: thick solid rgb(70, 70, 253);
+}
 section
 {
     border-bottom: thick solid rgb(70, 70, 253);
