@@ -1,0 +1,32 @@
+div
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+button
+{
+    margin-top: 1em;
+    align-self: flex-end;
+}
+label
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    font-size: medium;
+}
+textarea
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/*div > div
+{
+    border-width: 0.1em;
+    border-style: dashed;
+    border-color: rgb(57, 57, 167);
+    color: rgb(57, 57, 167);
+    font-size: 1.15em;
+}*/

@@ -1,0 +1,5 @@
+@import url('./Education.css');
+button
+{
+    align-self: flex-start;
+}

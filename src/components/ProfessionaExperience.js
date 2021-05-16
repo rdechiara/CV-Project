@@ -31,8 +31,8 @@ class ProfessionalExperience extends React.Component
                 <input type="date" name="fine" required></input>
                 <label htmlFor="mansioni">Principali attività e responsabilità</label>
                 <textarea placeholder="Descrivi i tuoi compiti e responsabilità" rows="5"></textarea>
-                <div onClick={this.props.handleClick}> <strong>+</strong> aggiungi altre esperienze lavorative</div>
-                <button onClick={this.props.handleClick}>{`Avanti >`}</button>
+                
+                {/*<button onClick={this.props.handleClick}>{`Avanti >`}</button>*/}
              
             </form>
         );

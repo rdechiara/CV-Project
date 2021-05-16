@@ -1,5 +1,5 @@
 import React from 'react';
-import './PersonaDataForm.css';
+import './PersonalDataForm.css';
 
 export class PersonalDataForm extends React.Component
 {
@@ -19,7 +19,7 @@ export class PersonalDataForm extends React.Component
     render()
     {
         return (
-            <form>
+            <div>
                 
                 <label htmlFor="name">Nome*</label>
                 <input type="text" name="name" required></input>
@@ -37,9 +37,9 @@ export class PersonalDataForm extends React.Component
                 </select>
 
                 <label htmlFor="nationality">Nazionalità</label>
-                <input type="text" required></input>
-                <button onClick={this.props.handleClick}>{`Avanti >`}</button>
-            </form>
+                <input type="text" name="nationality" required></input>
+                {/*<button onClick={this.props.handleClick}>{`Avanti >`}</button>*/}
+            </div>
         );
     }
 }
