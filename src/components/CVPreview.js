@@ -36,6 +36,7 @@ export class CVPreview extends React.Component
                     <strong>Competenze acquisite</strong>
                     <p>{localStorage.getItem(`competenze`)}</p>
                 </section>
+                <button>Genera PDF</button>
             </div>
         )
     }
