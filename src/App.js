@@ -25,7 +25,7 @@ class App extends React.Component
 
       const textareas = [...document.querySelectorAll(`textarea`)];
       textareas.forEach((area) =>{
-        localStorage.setItem(area.name, area.value);
+        localStorage.setItem(area.name, area.value.replace(/\n/g,"<br>"));
       });
 
     ReactDOM.render(<CVPreview/>, document.getElementById(`root`));

@@ -1,7 +1,13 @@
 import React from 'react';
 import './CVPreview.css'
+import PdfGenerator from '../PdfGenerator';
 export class CVPreview extends React.Component
 {
+    toPDF()
+    {
+        const generator = new PdfGenerator();
+        generator.getDocument();
+    }
     render()
     {
         return (
@@ -36,7 +42,7 @@ export class CVPreview extends React.Component
                     <strong>Competenze acquisite</strong>
                     <p>{localStorage.getItem(`competenze`)}</p>
                 </section>
-                <button>Genera PDF</button>
+                <button onClick={this.toPDF}>Genera PDF</button>
             </div>
         )
     }
