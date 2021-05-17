@@ -1,13 +1,19 @@
 {
-  "main.css": "/CV-Project/static/css/main.0d093172.chunk.css",
-  "main.js": "/CV-Project/static/js/main.5822395a.chunk.js",
-  "main.js.map": "/CV-Project/static/js/main.5822395a.chunk.js.map",
-  "runtime~main.js": "/CV-Project/static/js/runtime~main.54a80c5f.js",
-  "runtime~main.js.map": "/CV-Project/static/js/runtime~main.54a80c5f.js.map",
-  "static/js/2.198fd3fc.chunk.js": "/CV-Project/static/js/2.198fd3fc.chunk.js",
-  "static/js/2.198fd3fc.chunk.js.map": "/CV-Project/static/js/2.198fd3fc.chunk.js.map",
+  "main.css": "/CV-Project/static/css/main.e3cdd360.chunk.css",
+  "main.js": "/CV-Project/static/js/main.f37a6cfb.chunk.js",
+  "main.js.map": "/CV-Project/static/js/main.f37a6cfb.chunk.js.map",
+  "runtime~main.js": "/CV-Project/static/js/runtime~main.a02986bb.js",
+  "runtime~main.js.map": "/CV-Project/static/js/runtime~main.a02986bb.js.map",
+  "static/js/2.87b26199.chunk.js": "/CV-Project/static/js/2.87b26199.chunk.js",
+  "static/js/2.87b26199.chunk.js.map": "/CV-Project/static/js/2.87b26199.chunk.js.map",
+  "static/js/3.68b1d305.chunk.js": "/CV-Project/static/js/3.68b1d305.chunk.js",
+  "static/js/3.68b1d305.chunk.js.map": "/CV-Project/static/js/3.68b1d305.chunk.js.map",
+  "static/js/4.ab25ef2c.chunk.js": "/CV-Project/static/js/4.ab25ef2c.chunk.js",
+  "static/js/4.ab25ef2c.chunk.js.map": "/CV-Project/static/js/4.ab25ef2c.chunk.js.map",
+  "static/js/5.360464a8.chunk.js": "/CV-Project/static/js/5.360464a8.chunk.js",
+  "static/js/5.360464a8.chunk.js.map": "/CV-Project/static/js/5.360464a8.chunk.js.map",
   "index.html": "/CV-Project/index.html",
-  "precache-manifest.2451c1fbdfee53f76f69975248b075fb.js": "/CV-Project/precache-manifest.2451c1fbdfee53f76f69975248b075fb.js",
+  "precache-manifest.36f5a9943ed05b56c90a38072853cfa0.js": "/CV-Project/precache-manifest.36f5a9943ed05b56c90a38072853cfa0.js",
   "service-worker.js": "/CV-Project/service-worker.js",
-  "static/css/main.0d093172.chunk.css.map": "/CV-Project/static/css/main.0d093172.chunk.css.map"
+  "static/css/main.e3cdd360.chunk.css.map": "/CV-Project/static/css/main.e3cdd360.chunk.css.map"
 }
